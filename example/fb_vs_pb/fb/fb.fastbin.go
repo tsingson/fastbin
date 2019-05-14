@@ -4,7 +4,7 @@
 //
 package fb
 
-import "github.com/funny/binary"
+import "github.com/tsingson/fastbin/binary"
 
 func (this *Test) MarshalBinary() (data []byte, err error) {
 	var buf = binary.Buffer{Data: make([]byte, this.BinarySize())}

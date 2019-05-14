@@ -3,10 +3,10 @@ package fb_vs_pb
 import (
 	"testing"
 
-	"github.com/funny/fastbin"
-	"github.com/funny/fastbin/example/fb_vs_pb/fb"
-	"github.com/funny/fastbin/example/fb_vs_pb/pb"
 	"github.com/golang/protobuf/proto"
+	"github.com/tsingson/fastbin"
+	"github.com/tsingson/fastbin/example/fb_vs_pb/fb"
+	"github.com/tsingson/fastbin/example/fb_vs_pb/pb"
 )
 
 var pbTest = &pb.Test{

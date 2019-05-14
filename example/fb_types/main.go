@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/funny/fastbin"
-	"github.com/funny/fastbin/example/fb_types/module"
+	"github.com/tsingson/fastbin"
+	"github.com/tsingson/fastbin/example/fb_types/module"
 )
 
 func main() {
